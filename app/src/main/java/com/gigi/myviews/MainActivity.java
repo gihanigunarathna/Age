@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     {
         String msg=message.getText().toString();
         String b="";
+        String c="";
         //Intent- Intention
         Intent i=new Intent(this,SecondActivity.class);
         i.putExtra("key",msg);
